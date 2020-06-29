@@ -1,0 +1,22 @@
+﻿
+<div class="modal" tabindex="-1" role="dialog"  ng-keydown="keyboardInputKeyDown($event);" id="qalModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" ng-click="vm.closeModal()" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Set operation on Inspection</h4>
+        </div>
+      <div class="modal-body">
+          <div class="row">
+              <div class="col-xs-12">
+                  <strong>if you set done then it will create new inspection</strong>
+              </div>
+
+              <div class="col-xs-12">
+                  <input type="button" value="Make done" ng-click="vm.doOperation()" />
+              </div>
+          </div>
+          </div>
+    </div>
+  </div>
+</div>

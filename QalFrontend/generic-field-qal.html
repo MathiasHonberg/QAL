@@ -1,0 +1,47 @@
+<div class="container-fluid">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <span ng-init="vm.selectedGenericConfigTableVersion=11"></span>
+        <spna>Name</spna>&nbsp;&nbsp;&nbsp;&nbsp;:<span>{{vm.selectedGenericConfigTable.Name}}</span><br /><br />
+        <span>Version <input type="text" ng-model="vm.selectedGenericConfigTableVersion" readonly /></span>
+        <span ng-if="vm.showVersionMismatchError">version mismatch</span>
+        <br /><br />
+
+        <!-- Start GENERATED TEMPLATE-->
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2" id="80c4df1c-5f71-49a0-8747-d1d1492cbf21_0" ng-init="vm.GenericConfigTableKey=&#39;80c4df1c-5f71-49a0-8747-d1d1492cbf21&#39;">
+            <div class="row" ng-if="vm.entities.length>vm.getIndexWithTagId(&#39;FBBE24C0-EB55-4379-905C-58C2DDCBFA8B&#39;)">
+                <div class="form-group">
+                    <div>
+                        {{vm.entities[vm.getIndexWithTagId('FBBE24C0-EB55-4379-905C-58C2DDCBFA8B')].Name}}
+                    </div>
+                    <select class="form-control FBBE24C0-EB55-4379-905C-58C2DDCBFA8B" ng-model="vm.lookupFieldSelectedItem[&#39;fbbe24c0-eb55-4379-905c-58c2ddcbfa8b&#39;].GenericConfigLookupFieldKey" ng-change="vm.DependentFields(&#39;fbbe24c0-eb55-4379-905c-58c2ddcbfa8b&#39;)" ng-options="y.GenericConfigLookupFieldKey as y.Name for (x,y) in vm.GetValues(&#39;fbbe24c0-eb55-4379-905c-58c2ddcbfa8b&#39;)">
+                    </select>
+                </div>
+            </div>
+            <div class="row" ng-if="vm.entities.length>vm.getIndexWithTagId(&#39;BF5FB983-A608-4C0C-AB2A-BF11577CED35&#39;)">
+                <div class="form-group">
+                    <div>
+                        {{vm.entities[vm.getIndexWithTagId('BF5FB983-A608-4C0C-AB2A-BF11577CED35')].Name}}
+                    </div>
+                    <input class="form-control BF5FB983-A608-4C0C-AB2A-BF11577CED35" type="checkbox" ng-model="vm.entities[vm.getIndexWithTagId(&#39;BF5FB983-A608-4C0C-AB2A-BF11577CED35&#39;)].ValueBit" />
+                </div>
+            </div>
+            <div class="row" ng-if="vm.entities.length>vm.getIndexWithTagId(&#39;3291024A-2C0D-4822-80F9-81FE9F4CE256&#39;)">
+                <div class="form-group">
+                    <div>
+                        {{vm.entities[vm.getIndexWithTagId('3291024A-2C0D-4822-80F9-81FE9F4CE256')].Name}}
+                    </div>
+                    <input class="form-control 3291024A-2C0D-4822-80F9-81FE9F4CE256" type="text" ng-model="vm.entities[vm.getIndexWithTagId(&#39;3291024A-2C0D-4822-80F9-81FE9F4CE256&#39;)].ValueNvarchar" />
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- End Generated Template-->
+        <br />
+        <div class="col-lg-12">
+        <input type="button" ng-click="vm.saveGenericValueFields()" name="insert" value="Save" ng-if="vm.isNew || vm.isEdit" />
+        </div>
+    </div>
+    </div>

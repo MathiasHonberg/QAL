@@ -1,0 +1,107 @@
+<div class="container-fluid">
+    <div class="col-xs-12 col-md-8 col-lg-3">
+        <div class="row" style="margin-bottom: 1%; text-align: right">
+            <span class="col-xs-5 col-md-5">Inspections :</span>
+            <span class="col-xs-6 col-md-6">
+                <select ng-model="vm.selectedGenericConfigTable" ng-options="y as y.Name for (x,y) in vm.genericConfigTable" class="form-control"></select>
+            </span>
+            <span class="col-1"></span>
+        </div>
+    </div>
+    <span ng-init="vm.selectedGenericConfigTableVersion=15"></span>
+    <spna>{{vm.GroupTypeName}}</spna><br /><br />
+    <spna>Name</spna>&nbsp;&nbsp;&nbsp;&nbsp;:<span>{{vm.selectedGenericConfigTable.Name}}</span><br /><br />
+
+    <span>Version <input type="text" ng-model="vm.selectedGenericConfigTableVersion" readonly /></span>
+    <span ng-if="vm.showVersionMismatchError">version mismatch</span>
+    <br /><br />
+
+    <!-- Start GENERATED TEMPLATE-->
+
+
+    <style>
+        .generic-config-parent {
+            float: left;
+            width: 50%;
+        }
+
+        .generic-child-control-parent {
+            float: left;
+            width: 100%;
+        }
+
+        .generic-field-label-parent {
+            float: left;
+            width: 20%;
+        }
+
+        .generic-field-value-parent {
+            float: left;
+            width: 78%;
+            padding-bottom: 1%;
+        }
+
+            .generic-field-value-parent > input:not([type="checkbox"]), .generic-field-value-parent > select {
+                width: 78%;
+                height: 20px;
+            }
+    </style>
+    <span ng-init="vm.GroupTypeId=&#39;3&#39;"></span>
+    <span ng-init="vm.GroupTypeName=&#39;Inspection&#39;"></span>
+    <span ng-init="vm.GenericConfigTableKey=&#39;f43bd157-ee84-41a7-b9af-2101b85bd4eb&#39;"></span>
+    <div class="generic-config-parent" id="f43bd157-ee84-41a7-b9af-2101b85bd4eb_0" ng-init="vm.GenericConfigTableKey=&#39;f43bd157-ee84-41a7-b9af-2101b85bd4eb&#39;">
+        <div class="generic-child-control-parent" ng-if="vm.entities.length>vm.getIndexWithTagId(&#39;7113A463-82FD-496B-AECC-CFD55F119802&#39;)">
+            <span class="generic-field-label-parent">
+                <span>{{vm.entities[vm.getIndexWithTagId('7113A463-82FD-496B-AECC-CFD55F119802')].Name}}</span>
+            </span>
+            <span class="generic-field-value-parent">
+                <span class="7113A463-82FD-496B-AECC-CFD55F119802">
+                    <select ng-model="vm.lookupFieldSelectedItem[&#39;7113a463-82fd-496b-aecc-cfd55f119802&#39;].GenericConfigLookupFieldKey" ng-change="vm.DependentFields(&#39;7113a463-82fd-496b-aecc-cfd55f119802&#39;)" ng-options="y.GenericConfigLookupFieldKey as y.Name for (x,y) in vm.GetValues(&#39;7113a463-82fd-496b-aecc-cfd55f119802&#39;)">
+                    </select>
+                </span><span>{{vm.entities[vm.getIndexWithTagId('7113A463-82FD-496B-AECC-CFD55F119802')].Name}}</span><span>
+                    <select ng-model="vm.lookupFieldSelectedItem[&#39;d0a9a4c2-0ffe-4a3b-acd4-6dc9fa196c1e&#39;].GenericConfigLookupFieldKey" ng-options="y.GenericConfigLookupFieldKey as y.Name for (x,y) in vm.DependentFieldsDictionary[&#39;d0a9a4c2-0ffe-4a3b-acd4-6dc9fa196c1e&#39;]">
+                    </select>
+                </span>
+            </span>
+        </div>
+        <div class="generic-child-control-parent" ng-if="vm.entities.length>vm.getIndexWithTagId(&#39;8EFFB455-B2E7-46EC-9080-4393690B4959&#39;)">
+            <span class="generic-field-label-parent">
+                <span>{{vm.entities[vm.getIndexWithTagId('8EFFB455-B2E7-46EC-9080-4393690B4959')].Name}}</span>
+            </span>
+            <span class="generic-field-value-parent">
+                <span class="8EFFB455-B2E7-46EC-9080-4393690B4959">
+                    <select ng-model="vm.lookupFieldSelectedItem[&#39;8effb455-b2e7-46ec-9080-4393690b4959&#39;].GenericConfigLookupFieldKey" ng-change="vm.DependentFields(&#39;8effb455-b2e7-46ec-9080-4393690b4959&#39;)" ng-options="y.GenericConfigLookupFieldKey as y.Name for (x,y) in vm.GetValues(&#39;8effb455-b2e7-46ec-9080-4393690b4959&#39;)">
+                    </select>
+                </span><span>{{vm.entities[vm.getIndexWithTagId('8EFFB455-B2E7-46EC-9080-4393690B4959')].Name}}</span><span>
+                    <select ng-model="vm.lookupFieldSelectedItem[&#39;683cf5e5-5ab3-4a15-be19-cf1c5a7d2623&#39;].GenericConfigLookupFieldKey" ng-options="y.GenericConfigLookupFieldKey as y.Name for (x,y) in vm.DependentFieldsDictionary[&#39;683cf5e5-5ab3-4a15-be19-cf1c5a7d2623&#39;]">
+                    </select>
+                </span>
+            </span>
+        </div>
+        <div class="generic-child-control-parent" ng-if="vm.entities.length>vm.getIndexWithTagId(&#39;3DC2C4AA-66E3-41CD-8D58-F01F59CFB7C2&#39;)">
+            <span class="generic-field-label-parent">
+                <span>{{vm.entities[vm.getIndexWithTagId('3DC2C4AA-66E3-41CD-8D58-F01F59CFB7C2')].Name}}</span>
+            </span>
+            <span class="generic-field-value-parent">
+                <span class="3DC2C4AA-66E3-41CD-8D58-F01F59CFB7C2">
+                    <select ng-model="vm.lookupFieldSelectedItem[&#39;3dc2c4aa-66e3-41cd-8d58-f01f59cfb7c2&#39;].GenericConfigLookupFieldKey" ng-change="vm.DependentFields(&#39;3dc2c4aa-66e3-41cd-8d58-f01f59cfb7c2&#39;)" ng-options="y.GenericConfigLookupFieldKey as y.Name for (x,y) in vm.GetValues(&#39;3dc2c4aa-66e3-41cd-8d58-f01f59cfb7c2&#39;)">
+                    </select>
+                </span>
+            </span>
+        </div>
+        <div class="generic-child-control-parent" ng-if="vm.entities.length>vm.getIndexWithTagId(&#39;7939AE09-8D5F-467F-B90B-87782D55DB2E&#39;)">
+            <span class="generic-field-label-parent">
+                <span>{{vm.entities[vm.getIndexWithTagId('7939AE09-8D5F-467F-B90B-87782D55DB2E')].Name}}</span>
+            </span>
+            <span class="generic-field-value-parent">
+                <input class="7939AE09-8D5F-467F-B90B-87782D55DB2E" type="text" ng-model="vm.entities[vm.getIndexWithTagId(&#39;7939AE09-8D5F-467F-B90B-87782D55DB2E&#39;)].ValueNvarchar" />
+            </span>
+        </div>
+
+    </div>
+
+
+    <!-- End Generated Template-->
+    <br />
+    <input type="button" ng-click="vm.saveGenericValueFields()" name="insert" value="Save" ng-if="vm.isNew || vm.isEdit" />
+</div>

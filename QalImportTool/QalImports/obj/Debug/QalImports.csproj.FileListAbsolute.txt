@@ -1,0 +1,20 @@
+C:\Users\mafh\source\repos\QalImports\QalImports\bin\Debug\QalImports.exe.config
+C:\Users\mafh\source\repos\QalImports\QalImports\bin\Debug\QalImports.exe
+C:\Users\mafh\source\repos\QalImports\QalImports\bin\Debug\QalImports.pdb
+C:\Users\mafh\source\repos\QalImports\QalImports\obj\Debug\QalImports.csprojAssemblyReference.cache
+C:\Users\mafh\source\repos\QalImports\QalImports\obj\Debug\QalImports.Properties.Resources.resources
+C:\Users\mafh\source\repos\QalImports\QalImports\obj\Debug\QalImports.csproj.GenerateResource.cache
+C:\Users\mafh\source\repos\QalImports\QalImports\obj\Debug\QalImports.csproj.CoreCompileInputs.cache
+C:\Users\mafh\source\repos\QalImports\QalImports\obj\Debug\QalImports.exe
+C:\Users\mafh\source\repos\QalImports\QalImports\obj\Debug\QalImports.pdb
+C:\Users\mafh\source\repos\QalImports\QalImports\obj\Debug\QalImports.Form1.resources
+C:\TFS\107-27828 force Inspect\Main\Source\QAL\QalImports\obj\Debug\QalImports.csprojAssemblyReference.cache
+C:\TFS\107-27828 force Inspect\Main\Source\QAL\QalImports\obj\Debug\QalImports.Form1.resources
+C:\TFS\107-27828 force Inspect\Main\Source\QAL\QalImports\obj\Debug\QalImports.Properties.Resources.resources
+C:\TFS\107-27828 force Inspect\Main\Source\QAL\QalImports\obj\Debug\QalImports.csproj.GenerateResource.cache
+C:\TFS\107-27828 force Inspect\Main\Source\QAL\QalImports\obj\Debug\QalImports.csproj.CoreCompileInputs.cache
+C:\TFS\107-27828 force Inspect\Main\Source\QAL\QalImports\obj\Debug\QalImports.exe
+C:\TFS\107-27828 force Inspect\Main\Source\QAL\QalImports\obj\Debug\QalImports.pdb
+C:\TFS\107-27828 force Inspect\Main\Source\QAL\QalImports\bin\Debug\QalImports.exe.config
+C:\TFS\107-27828 force Inspect\Main\Source\QAL\QalImports\bin\Debug\QalImports.exe
+C:\TFS\107-27828 force Inspect\Main\Source\QAL\QalImports\bin\Debug\QalImports.pdb
